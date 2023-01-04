@@ -1,9 +1,42 @@
-## URL
-memo.klavier.page
+# Nuxt 3 Minimal Starter
 
-## 用途
-端末間でURLなどの文字列を共有したい時に使う。他人のPCでYoutubeの限定公開を見たい時とか。
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## 使い方
-memo.klavier.page/[xxx]  
-の[xxx]に適当な文字列を入れてフォームに入力すれば共有できる。
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# yarn
+yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install --shamefully-hoist
+```
+
+## Development Server
+
+Start the development server on http://localhost:3000
+
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
